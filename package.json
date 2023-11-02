@@ -1,0 +1,35 @@
+{
+  "name": "homestay-be",
+  "version": "1.0.0",
+  "description": "1. In src/config/db, copy index.example.js to index.js, then provide value for <<listening_ip>>, <<port>>, <<database_name>> so it can be appropriate to your mongoose database.\r 2. Run 'npm install' to install all packages.\r 3. Run 'npm run watch' to update all changes from scss.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js -e js,ejs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap-icons": "^1.6.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.3",
+    "mongoose-delete": "^0.5.4",
+    "mongoose-slug-generator": "^1.0.4",
+    "multer": "^1.4.5-lts.1",
+    "sass": "^1.69.5",
+    "sharp": "^0.30.7",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1"
+  }
+}
